@@ -50,8 +50,8 @@ const PokemonCard = (props) => {
       </div>
       {/* {loadingImage ? <h1>Loading</h1> : null} */}
       <div
-        className="w-[25em] sm:w-[15em] lg:w-[15em] xl:w-[20em] 
-                   h-[18em] sm:h-[12em] lg:h-[11em] xl:h-[15em] 
+        className="w-[19em] sm:w-[15em] lg:w-[15em] xl:w-[20em] 
+                   h-[15em] sm:h-[12em] lg:h-[11em] xl:h-[15em] 
                    relative flex justify-center"
       >
         <img
@@ -64,7 +64,7 @@ const PokemonCard = (props) => {
         />
         <img
           src={IcPokeball}
-          className="text-center self-center my-auto absolute z-0 top-0 mt-2 w-[65%]"
+          className="text-center self-center my-auto absolute z-0 top-0 mt-5 sm:mt-2 w-[65%]"
           alt="pokeball"
         />
       </div>
